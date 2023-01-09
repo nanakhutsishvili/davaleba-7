@@ -1,19 +1,15 @@
 body  {display: flex;
        justify-content: center;}
 
-.main   {display: flex;
-    justify-content: center;}
-
-@font-face {
-    font-family: face;
-    src: url();
-}
-
 * {  box-sizing: border-box; }
+ 
+@font-face {
+    font-family:'FiraGO' ;
+    src: url(./FiraGOR.ttf);}
 
 thead, tbody { border-color:  #EDEDED;}
 
-h1   { 
+h1   { display:inline-flex;
     width: 148px;
     height: 24px;   
     font-family: 'FiraGO';
@@ -63,7 +59,7 @@ thead {box-sizing: border-box;
     height: 40px;
     background: #FFDD04;
     border-radius: 10px;
-    margin-left: 900px;}
+    margin-left: 807px;}
 
 tr   {width: 1223px;
     height: 65px;
@@ -72,7 +68,7 @@ tr   {width: 1223px;
 
 .action  { width: 200px;}
 
-td   {width: 190px;}
+td   {width: 180px;}
 
 .delete  {  
     font-family: 'FiraGO';
@@ -96,3 +92,4 @@ td   {width: 190px;}
     height: 33px;
     background: #FFDD04;
     border-radius: 10px;}
+
