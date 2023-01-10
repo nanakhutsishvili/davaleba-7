@@ -59,18 +59,22 @@ input   {padding-left: 24px; }
 .button1   {width: 141px;
     height: 50px;  
     background: #FFDD04;
-    border-radius: 10px;}
+    border-radius: 10px;
+    border-color: #FFDD04;}
 
 .button2  {width: 141px;
     height: 40px;
     background: #FFDD04;
     border-radius: 10px;
-    margin-left: 807px;}
+    margin-left: 807px;
+    border-color: #FFDD04;}
    
 
 .action  { width: 200px;}
 
 td   {width: 180px;}
+
+td, th  {padding-left: 5px;}
 
 .delete  {  
     font-family: 'FiraGO';
@@ -82,7 +86,8 @@ td   {width: 180px;}
     width: 93px;
     height: 33px;
     background: #FF8271;
-    border-radius: 10px;}
+    border-radius: 10px;
+    border-color: #FFDD04;}
 
 .Edit   {font-family: 'FiraGO';
     font-style: normal;
@@ -93,5 +98,6 @@ td   {width: 180px;}
     width: 93px;
     height: 33px;
     background: #FFDD04;
-    border-radius: 10px;}
+    border-radius: 10px;
+    border-color: #FFDD04;}
 
