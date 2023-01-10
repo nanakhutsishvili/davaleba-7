@@ -21,7 +21,8 @@ h1   { display:inline-flex;
     line-height: 29px;  
     color: #000000;}
 
-thead   {border: 1px solid #EDEDED;}
+thead   {border: 1px solid #EDEDED;
+    text-align: left;}
 
 .table1  { width: 100%;
     border-collapse: collapse;}
