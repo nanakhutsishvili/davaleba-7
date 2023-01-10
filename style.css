@@ -1,9 +1,12 @@
 body  {display: flex;
        justify-content: center;}
 
+
 * {  box-sizing: border-box; }
 
-.div2  {width: 100%;
+.main   {width: 1223px;}
+
+.div2  {width: 1223px;
         padding-top: 50px;}
  
 @font-face {
@@ -25,10 +28,11 @@ thead   {border: 1px solid #EDEDED;
     text-align: left;
     height: 65px;}
 
+
 .table1  { width: 100%;
     border-collapse: collapse;}
 
-.table1 > tbody > tr  { background-color:  #EDEDED;
+.table1 > tbody > tr  { background-color:  #FAFAFA;
     border: 1px solid #EDEDED;
     height: 84px;}
 
@@ -40,6 +44,13 @@ thead   {border: 1px solid #EDEDED;
     border-collapse: collapse;}
 
 input   {padding-left: 24px; }
+
+::placeholder  {font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E8E8E8;}
 
 #inp1  {width: 359px;
     height: 50px;
@@ -61,7 +72,7 @@ input   {padding-left: 24px; }
     height: 50px;  
     background: #FFDD04;
     border-radius: 10px;
-    border-color: #FFDD04;
+    border: none;
     font-family: 'FiraGO';
     font-style: normal;
     font-weight: 700;
@@ -74,7 +85,7 @@ input   {padding-left: 24px; }
     background: #FFDD04;
     border-radius: 10px;
     margin-left: 807px;
-    border-color: #FFDD04;
+    border:none;
     font-family: 'FiraGO';
     font-style: normal;
     font-weight: 700;
@@ -85,7 +96,23 @@ input   {padding-left: 24px; }
 
 .action  { width: 200px;}
 
-td   {width: 180px;}
+.table1 > tbody > th  {width: calc(1223/4);
+    height: 19px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;}
+
+.table2 > tbody > th  {width: calc(1223/6);
+    height: 19px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;}
 
 td, th  {padding-left: 5px;}
 
@@ -100,7 +127,7 @@ td, th  {padding-left: 5px;}
     height: 33px;
     background: #FF8271;
     border-radius: 10px;
-    border-color: #FF8271;}
+    border:none;}
 
 .Edit   {font-family: 'FiraGO';
     font-style: normal;
@@ -112,5 +139,5 @@ td, th  {padding-left: 5px;}
     height: 33px;
     background: #FFDD04;
     border-radius: 10px;
-    border-color: #FFDD04;}
+    border: none;}
 
