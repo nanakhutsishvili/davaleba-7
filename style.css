@@ -22,7 +22,8 @@ h1   { display:inline-flex;
     color: #000000;}
 
 thead   {border: 1px solid #EDEDED;
-    text-align: left;}
+    text-align: left;
+    height: 65px;}
 
 .table1  { width: 100%;
     border-collapse: collapse;}
@@ -60,14 +61,26 @@ input   {padding-left: 24px; }
     height: 50px;  
     background: #FFDD04;
     border-radius: 10px;
-    border-color: #FFDD04;}
+    border-color: #FFDD04;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;}
 
 .button2  {width: 141px;
     height: 40px;
     background: #FFDD04;
     border-radius: 10px;
     margin-left: 807px;
-    border-color: #FFDD04;}
+    border-color: #FFDD04;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;}
    
 
 .action  { width: 200px;}
