@@ -2,8 +2,10 @@ body  {display: flex;
        justify-content: center;}
 
 * {  box-sizing: border-box; }
+
+.div2  {width: 100%;
+        padding-top: 50px;}
  
-thead 
 @font-face {
     font-family:'FiraGO' ;
     src: url(./FiraGOR.ttf); }
@@ -27,6 +29,13 @@ thead   {border: 1px solid #EDEDED;}
 .table1 > tbody > tr  { background-color:  #EDEDED;
     border: 1px solid #EDEDED;
     height: 84px;}
+
+.table2 > tbody > tr  { 
+        border: 1px solid #EDEDED;
+        height: 65px;}
+
+.table2   { width: 100%;
+    border-collapse: collapse;}
 
 input   {padding-left: 24px; }
 
