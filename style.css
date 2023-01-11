@@ -10,7 +10,10 @@ body  {display: flex;
 .table1 > thead > tr> th {padding-left: 25px;}
 .table2 > thead > tr> th {padding-left: 25px;}
 .table2 > tbody > tr> td {padding-left: 25px;}
-.tdbuttons {width: 220px;}
+.tdbuttons {width: 220px;
+            padding-left: 0% !important;
+            text-align: center !important;}
+
 
 .div2  {width: 1223px;
         padding-bottom: 19px;
@@ -114,7 +117,8 @@ input   {padding-left: 24px; }
    
 
 .action  { width: 200px;
-           text-align: center;}
+           text-align: center !important;
+           padding-left: 0% !important;}
 
 .table1 > tbody > th  {
     margin-right: 25px;
