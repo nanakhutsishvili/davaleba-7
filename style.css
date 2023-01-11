@@ -13,7 +13,8 @@ body  {display: flex;
 .tdbuttons {width: 220px;}
 
 .div2  {width: 1223px;
-        padding-top: 50px;}
+        padding-bottom: 19px;
+        margin-top: 50px;}
  
 @font-face {
     font-family:'FiraGO' ;
