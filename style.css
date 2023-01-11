@@ -4,7 +4,13 @@ body  {display: flex;
 
 * {  box-sizing: border-box; }
 
-.main   {width: 1223px;}
+.main   {width: 1264px;
+         padding: 20px;}
+
+.table1 > thead > tr> th {padding-left: 25px;}
+.table2 > thead > tr> th {padding-left: 25px;}
+.table2 > tbody > tr> td {padding-left: 25px;}
+.tdbuttons {width: 220px;}
 
 .div2  {width: 1223px;
         padding-top: 50px;}
@@ -32,16 +38,17 @@ thead   {border: 1px solid #EDEDED;
 .table1  { width: 100%;
     border-collapse: collapse;}
 
+.table2   { width: 100%;
+    border-collapse: collapse;}
+
 .table1 > tbody > tr  { background-color:  #FAFAFA;
     border: 1px solid #EDEDED;
     height: 84px;}
 
 .table2 > tbody > tr  { 
-        border: 1px solid #EDEDED;
-        height: 65px;}
+    border: 1px solid #EDEDED;
+    height: 65px;}
 
-.table2   { width: 100%;
-    border-collapse: collapse;}
 
 input   {padding-left: 24px; }
 
@@ -52,9 +59,20 @@ input   {padding-left: 24px; }
     line-height: 19px;
     color: #E8E8E8;}
 
+.td1  {width: 409px;
+    text-align: center;}
+
+.td2  {width: 316px;
+    text-align: center;}
+
+.td3  {width: 267px;
+    text-align: center;}
+
+.td4  {width: 219px;
+    text-align: center;}
+
 #inp1  {width: 359px;
     height: 50px;
-    margin-left: 25px;
     border: 1px solid #ECECEC;
     border-radius: 10px;}
 
@@ -84,7 +102,7 @@ input   {padding-left: 24px; }
     height: 40px;
     background: #FFDD04;
     border-radius: 10px;
-    margin-left: 807px;
+    float: right;
     border:none;
     font-family: 'FiraGO';
     font-style: normal;
@@ -96,7 +114,8 @@ input   {padding-left: 24px; }
 
 .action  { width: 200px;}
 
-.table1 > tbody > th  {width: calc(1223/4);
+.table1 > tbody > th  {
+    margin-right: 25px;
     height: 19px;
     font-family: 'FiraGO';
     font-style: normal;
@@ -113,8 +132,6 @@ input   {padding-left: 24px; }
     font-size: 16px;
     line-height: 19px;
     color: #000000;}
-
-td, th  {padding-left: 5px;}
 
 .delete  {  
     font-family: 'FiraGO';
